@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #101727;
+}
+
+nav {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 60%;
+}
+
+.wt-color {
+    color: white;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6c739c;
+    font-size: 1.3rem;
+}
+
+.navbar-nav>.nav-item>.active {
+    color: white;
+}
+
+.navbar-nav>.nav-item>.nav-link:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.dark-bg {
+    background-color: #101727;
+}
+
+.hero {
+    color: white;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    font-size: 5rem;
+}
+
+.join-btn {
+    border: none;
+    background: #48d6b5;
+    color: #101727;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.stat-box {
+    border: 0.5px solid #cacaca;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+}
+
+.gradient-heading {
+    background: linear-gradient(to right, #1e6c97, #43c3d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dark-text {
+    color: #6c739c;
+}
+
+
+.third {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.third h2 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.third p,
+.third li {
+    font-size: 1.2rem;
+}
+
+.bootcamp-btn {
+    border: none;
+    background: #48d6b5;
+    color: #101727;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* mobile view */
+@media screen and (max-width: 767px) {
+
+    .main-title {
+        font-size: 3rem;
+    }
+
+    h2,
+    h3 {
+        font-size: 2rem;
+    }
+
+    .logo-container img {
+        width: 55%;
+    }
+
+    .third h3 {
+        font-size: 2rem;
+    }
+
+    .third h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-container img {
+        width: 50%;
+    }
+}
