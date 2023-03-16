@@ -127,6 +127,24 @@ h3 {
     font-weight: bold;
 }
 
+.join-discord {
+    border: none;
+    background: #48d6b5;
+    color: #101727;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.accordion-item strong,
+.accordion-body {
+    font-size: 1.2rem;
+}
+
+.accordion-item strong {
+    margin-bottom: 1rem;
+}
+
 
 /* mobile view */
 @media screen and (max-width: 767px) {
@@ -150,6 +168,11 @@ h3 {
 
     .third h2 {
         font-size: 2.5rem;
+    }
+
+    .accordion-item strong,
+    .accordion-body {
+        font-size: 1.1rem;
     }
 }
 
